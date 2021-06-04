@@ -1,0 +1,191 @@
+.test{
+    text-align: center;
+}
+.flexcontainer{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    
+
+}   
+.span{
+    display: inline-block;
+    height: 5px;
+    width: 50px;
+    background: #FF3434;
+    margin-bottom: 30px;
+}
+.leftitem{
+    background-color: aquamarine;
+    width: 30%;
+    height: 300px;
+    margin: 30px 0;
+    border-radius: 12px 0 0 12px;
+    outline: none;
+
+}
+.leftitemimg{
+    background-color: grey;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    outline: none;
+    border-radius: 12px 0 0 12px;
+    opacity: 0.8;
+}
+.leftitemimg:hover{
+    opacity: 1;
+    
+}
+.rightitem{
+    background-color: grey;;
+    text-align: center;
+    width: 50%;
+    height: 300px;
+    margin: 30px 0;
+    border-radius: 0 12px 12px 0;
+    outline: none;
+}
+.rightitem .aboutcard{
+text-align: left;
+color: white;
+margin-left: 30px;
+font-family: 'Roboto Slab', serif;
+}
+.rightitem .durationcard{
+    text-align: left;
+    color: white;
+    font-family: 'Roboto Slab', serif;
+
+    
+    margin-left: 30px;
+}
+.cardheading{
+    margin: 15px 20px;
+    text-align: center;
+    color: darkslategrey;
+    font-family: 'Roboto Slab', serif;
+}
+
+.cardinformation{
+    margin: 15px;
+    font-family: 'Karla', sans-serif;
+
+
+
+
+}
+
+
+@media screen and (max-width: 768px) {
+    
+    .flexcontainer{
+flex-direction: column;
+
+    }
+    .leftitem{
+       width: 70%;
+       height: 300px;
+       border-radius: 12px 12px 0 0;
+       margin: 30px 0 0 0; 
+    }
+    .leftitemimg{
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 12px 12px 0 0;
+      outline: none;
+    }
+    .rightitem{
+        width: 70%;
+        padding-top: 12px;
+        margin: 0 0 30px 0;
+        border-radius: 0 0 12px 12px;
+
+    }
+    .rightitem .aboutcard{
+        text-align: left;
+        color: white;
+        margin-left: 30px;
+        }
+        .rightitem .durationcard{
+            text-align: left;
+            color: white;
+            font-size: 20px;
+            
+            margin-left: 30px;
+        }
+        .cardheading{
+            margin: 15px 20px;
+            text-align: center;
+            color: darkslategrey;
+            font-size: 30px;
+        }
+        
+        .cardinformation{
+            margin:0 15px;
+        
+        }
+
+}
+@media screen and (max-width: 480px){
+
+    .flexcontainer{
+        flex-direction: column;
+        
+            }
+            .leftitem{
+               width: 100%;
+               height: 300px;
+               border-radius: 12px 12px 0 0;
+               margin: 30px 0 0 0; 
+            }
+            .leftitemimg{
+              width: 100%;
+              height: 100%;
+              object-fit: cover;
+              border-radius: 12px 12px 0 0;
+              outline: none;
+            }
+            .rightitem{
+                width: 100%;
+                padding-top: 12px;
+                margin: 0 0 30px 0;
+                border-radius: 0 0 12px 12px;
+        
+            }
+
+}
+.days{
+    font-family: 'Roboto Slab', serif;
+
+
+}
+.c1100{
+    font-family: 'Roboto Slab', serif;
+
+
+}
+.c1101{
+     font-family: 'Karla', sans-serif;
+
+
+
+
+}
+.c909{
+    width: 50px;
+    height: 50px;
+    background-color: grey;
+   margin-left: 20px;
+
+
+
+
+
+}
+
+

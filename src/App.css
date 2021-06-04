@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap");
+:root {
+  --primary-white: #fff;
+  --primary-orange: #f9ab00;
+  --primary-dark: rgba(255, 255, 255, 0);
+  --primary-red: #ef4035;
+  --primary-hover-red: #f33501;
+}
+body {
+  font-family: "Roboto Condensed" sans-serif;
+}
+/* ...............Navbar.................... */
+nav {
+  z-index: 2;
+}
+
+.logo {
+  width: 7.25rem;
+}
+
+@media (max-with: 768px) {
+  .navbar-brand {
+    width: 7rem;
+  }
+}
+/* ................Menu Links............... */
+nav a.nav-link {
+  letter-spacing: 0.1375rem;
+  cursor: pointer;
+}
+nav ul li {
+  text-transform: uppercase;
+}
+.navbar-nav > li > a {
+  color: var(--primary-white) !important;
+  margin-right: 0.75rem;
+  margin-left: 0.75rem;
+  border-top: 0.1875rem solid var(--primary-dark) !important;
+}
+.navbar-brand {
+  max-width: 17.25rem;
+  height: 6rem;
+  padding: 0;
+}
+.navbar-nav > li > a.active,
+.navbar-nav > li > a:focus {
+  border-top: 0.1875rem solid var(--primary-orange) !important;
+}
+.navbar-nav > li > a:hover {
+  border-top: 0.1875rem solid var(--primary-orange) !important ;
+}
+
+/* ...............................Header.................................. */
+.header-overlay {
+  width: 100%;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.4);
+  height: 95vh;
+}
+.header-wraper {
+  position: relative;
+  background: url(headerpic.jpg) no-repeat;
+
+  background-size: cover;
+  background-position: center;
+  height: 95vh;
+}
+.main-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Roboto Condensed" sans-serif;
+  z-index: 1;
+}
+.main-info h1 {
+  color: var(--primary-orange);
+  text-transform: uppercase;
+  padding-top: 40px;
+}
+@media (max-width: 786) {
+  .main-info h1 {
+    font-size: 1.7rem !important;
+  }
+}
+
+/* .....Typed Text */
+
+.typed-text {
+  font-size: 2rem;
+  color: white;
+  z-index: 1;
+}
+@media (max-width: 768px) {
+  .typed-text {
+    font-size: 1.3rem;
+  }
+}
+
+/* .........Particles js......... */
+.tsparticles-canvas-el {
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  z-index: 1;
+}
+@media (max-width: 768px) {
+  .particles-canvas {
+    display: none;
+  }
+}
+.test {
+  width: 100%;
+  height: auto;
+  margin: 20px 0;
+}
+
+/*............... Heading for Our Plan Section ................ */
+.forplan {
+  width: 100%;
+  height: 120px;
+  text-align: center;
+  background-color: darkturquoise;
+  padding-top: 25px;
+}
+
+/*........... Why Us Section from Home page .................*/
+.whyus {
+  width: 100%;
+  height: 600px;
+  background-color: dimgray;
+  color: white;
+  text-align: center;
+}
+.whyus h1 {
+  padding-top: 40px;
+}
+.whyus p {
+  padding: 30px 50px 0 50px;
+}
+@media screen and (max-width: 780px) {
+  .whyus p {
+    text-align: center;
+    padding: 15px;
+  }
+}
+.footerhome {
+  width: 100%;
+  height: 50px;
+  background-color: black;
+  text-align: center;
+  color: white;
+  padding-top: 10px;
+}

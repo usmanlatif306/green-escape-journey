@@ -1,0 +1,38 @@
+
+
+@media screen and (max-width: 430px) {
+    #w3review {
+      
+      width: 90%;
+    }
+  }
+
+
+
+
+
+
+.main7{
+    height: 100ch;
+    background-color: #BEBEBE;
+    background-repeat: no-repeat
+    
+    
+    
+}
+
+.four{
+   
+    height: 500px;
+    width: 50%;
+    position:absolute;
+    left: 15%;
+    right: 20%;
+    top: 90px;
+ 
+    
+}
+.contact2{
+    text-align: center;
+    font-size: 40px;
+}

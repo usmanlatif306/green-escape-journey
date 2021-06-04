@@ -1,0 +1,70 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+#main{
+
+   
+}
+
+
+
+.logo{
+    
+    margin-top: 15px;
+}
+
+.nab2{
+    border: 2px solid rgb(0, 255, 149);
+}
+.nab ul li {
+    padding: 10px 15px;
+}
+.nab ul li a {
+   text-decoration: none;
+}
+.btns button:nth-child(2){
+    border-radius: 0 50px 50px 0;
+    background-color: orange;
+    color: white;
+    border: 0;
+    
+    font-weight: bold;
+}
+.btns button:nth-child(1){
+  background: transparent;
+  border: 2px solid orange;
+  border-radius: 0 50px 50px 0;
+  
+  
+  font-weight: bold;
+  color: rgb(245, 240, 240);
+  transition: ease .5s;
+}
+.btns button:nth-child(1):hover{
+    background: orange;
+    color: white;
+    padding-bottom: 15px;
+    margin-bottom: 17px;
+  }
+
+ #ltwo:visited{
+     border-bottom: 2px solid tomato;
+     color: tomato;
+
+ }
+ #lie{
+     margin-bottom: 10px;
+     
+ }
+ .nab ul li{
+     margin-top: 10px;
+ }
+ #button{
+    padding-bottom: 15px;
+    margin-bottom: 10px;
+
+ }
+ .nab ul li a {
+     border-bottom: 2px solid white;
+ }

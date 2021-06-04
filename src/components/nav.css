@@ -1,0 +1,43 @@
+.user-image {
+  width: 3%;
+  border-radius: 50%;
+}
+.user-profile-menu {
+  display: block;
+  width: 8%;
+  position: absolute;
+  top: 75%;
+  left: 86.5%;
+}
+.custom-dropdown {
+  left: -160% !important;
+  width: 200px !important;
+  /* height: auto; */
+  max-height: 300px !important;
+  overflow-y: scroll !important;
+}
+.drop-header,
+.notification {
+  width: 100%;
+  border-bottom: 1px solid lightgray;
+}
+.drop-header span {
+  font-size: 15px;
+  padding-left: 5px;
+}
+
+.notification p,
+.notification span {
+  text-transform: none;
+  font-size: 13px;
+}
+.jeg{
+  font-size: 15px;
+  color: white;
+}
+.c890{
+  
+  background-color: aliceblue;
+
+}
+

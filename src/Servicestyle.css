@@ -1,0 +1,70 @@
+.onediv{
+  height: 895px;
+  border: chartreuse;
+  text-align: center;
+  filter: blur(8px);
+    -webkit-filter: blur(2px);
+  
+  
+  }
+  .maintoptext{
+      font-size: 100px;
+      
+      padding-top: 400px;
+  }
+  .bg-text {
+      background-color: rgb(0,0,0); /* Fallback color */
+      background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+      color: white;
+      font-weight: bold;
+      border: 3px solid #f1f1f1;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 2;
+      width: 80%;
+      padding-bottom: 200px;
+      padding: 10px;
+      text-align: center;
+      margin-top: 100px;
+    }
+  
+  
+  .maintop{
+      height: 895px;
+      
+  }
+  .gridlogo{
+  font-size: larger;
+  font-weight: 900px;
+  color: black;
+  
+  }
+  .g1{
+      
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      
+    }
+  
+  
+      .logotext{
+          text-align: center;
+          padding-top: 25px;
+          
+      }
+  
+      .lastdiv{
+        height: 900px;
+        border: solid 2px blue;
+        width: 80%;
+        margin: auto;
+    
+    border: 3px solid green;
+    padding: 10px;
+    
+  
+  
+      }
